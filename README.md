@@ -2,6 +2,7 @@
 
 ## Running api
 ```
+npm ci --silent
 npm run start
 ```
 Example:
@@ -16,6 +17,5 @@ curl --request POST \
 ```
 ## Running local unit tests
 ```
-npm ci --silent
 npm t
 ```
